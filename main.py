@@ -131,4 +131,4 @@ async def on_ready():
     await tree.sync(guild=discord.Object(id=GUILD_ID))
     print(f"Logged in as {bot.user}")
 
-bot.run(ox.getenv("TOKEN"))
+bot.run(os.getenv("TOKEN"))
