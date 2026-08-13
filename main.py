@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GUILD_ID = 1485163135533842464  # Guild ID where command registers
-STAFF_ROLE_IDS = [1489448310568783932]  # list of role IDs that can see/manage tickets
+GUILD_ID = 1535128203872698509  # Guild ID where command registers
+STAFF_ROLE_IDS = [1535130804928122961]  # list of role IDs that can see/manage tickets
 
 intents = discord.Intents.default()
 intents.guilds = True
@@ -21,7 +21,7 @@ ticket_counter = 1
 
 # Build the embed and buttons for the menu
 def menu_embed():
-    e = discord.Embed(title="GCL Ticket Manager", color=discord.Color.blurple())
+    e = discord.Embed(title="GEL Ticket Manager", color=discord.Color.blurple())
     e.description = (
         "Open the ticket type that fits your issue best. Please read the Terms of Service before opening any ticket..\n"
         "Before opening a ticket, read #rules.\n"
